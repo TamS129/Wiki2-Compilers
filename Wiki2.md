@@ -7,7 +7,7 @@ If you erase this our paragraph indents go away. - Tamara -->
 
 <style>
     p{
-        text-indent: 30pt
+        text-indent: 30 pt
     }
    
 </style>
