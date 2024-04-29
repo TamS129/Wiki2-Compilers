@@ -47,14 +47,14 @@ complex forms, compilers have grown to be indispensable tools in the arsenal of 
 the role of compilers continues to adapt, ensuring they remain at the heart of software development processes.
 </p>
 
+## <div align = "center"> 3 Phases of Compilers [Jackson] </div>
+<p>
+There are 3 main phases of compilers: The front end phase, the intermediate code optimization phase, and the back end phase. The <b>front end phase</b> involves scanning the source code provided to the compiler, and producing an intermediate representation of the code. This is produced through generating tokens based on the source code’s language, and evaluating if it is both syntactically and semantically correct. The <b>intermediate code optimization phase</b> is when the code produced by the front end is further optimized by generating machine independent code. By doing so, it makes it so that the program will be more optimal when translated to machine code, and can be further translated to machine code on different types of devices. Finally, the <b>back end phase</b> is when the optimized intermediate code is finally translated into machine code for the device it will be used on. This will include tasks directly related to hardware, such as allocating memory in registers or selecting instructions.
+</p>
+
 ## <div align = "center"> Operations of the Compiler [Jackson] </div>
 <p>
 
-<!--- Insert Your part here -->
-</p>
-
-## <div align = "center"> 3 Phases of Compilers [Jackson] </div>
-<p>
 <!--- Insert Your part here -->
 </p>
 
