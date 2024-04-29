@@ -25,14 +25,36 @@ If you erase this our paragraph indents go away. - Tamara -->
 
 ## <div align = "center">Compilers and their purpose [Kelvin]</div>
 <p>
-<!--- Insert Your part here between the p brackets -->
+A compiler is a fundamental software tool that translates high-level programming languages which are readable & comprehensible to humans, 
+into low-level binary machine code, which computers can understand. This transformation process, known as compilation, is crucial in software 
+development, bridging the gap between human ideas and computer execution. The purpose of a compiler is multifold: it translates programs into 
+machine-readable instructions, helps make code independent of the platform, generates executable files of code and ensures that the code is free 
+from errors. Compilers are essential for executing complex software applications efficiently. They are also used to check the syntax and semantics 
+of the code, catching errors before the software is executed.
 </p>
+
+![wiki2.png](Images%2Fwiki2.png)
 
 ## <div align = "center">The History of Compilers [Kelvin] </div>
 <p>
+The development of compilers is intertwined with the history of computer science. During the early days of computing in the 1940s, programmers 
+wrote instructions in binary code directly suited to machine hardware. The tedious nature of this process led to the development of assembly 
+languages, which allowed programmers to use symbolic representations of machine instructions. The real shift came with the advent of high-level 
+languages, which abstracted the programming process further from the machine language. The first significant high-level language was FORTRAN, 
+developed in the 1950s by John Backus’ team at IBM. This development was closely followed by the creation of the first compiler for FORTRAN, 
+which marked a pivotal moment in computing, allowing for more rapid and flexible program development. Throughout the 1960s and 1970s, the evolution 
+of compilers was characterized by improvements in optimization techniques and error detection mechanisms, which greatly enhanced programming 
+efficiency and machine performance. Languages such as COBOL and LISP were developed with their compilers, expanding the usability of computers 
+in business and research.
 
-<!--- Insert Your part here between the p brackets-->
+As computing power increased and the needs of software grew more complex, the functionality of compilers expanded. Modern compilers 
+are now capable of performing complex optimizations on the code to improve execution speed and reduce resource consumption. They also 
+play a critical role in the development environment, offering developers immediate feedback on errors and warnings.
 
+In summary, compilers are indispensable to the development of software. They translate high-level language into machine code, 
+enhance it for performance and ensure it is error-free. From their origins in the earliest days of programming to their current 
+complex forms, compilers have grown to be indispensable tools in the arsenal of modern computer science. As technology evolves, 
+the role of compilers continues to adapt, ensuring they remain at the heart of software development processes.
 </p>
 
 ## <div align = "center"> Operations of the Compiler [Jackson] </div>
