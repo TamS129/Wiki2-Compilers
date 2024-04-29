@@ -5,12 +5,7 @@
 <!--- This method below is to indent our paragraphs to make it look neater. 
 If you erase this our paragraph indents go away. - Tamara -->
 
-<style>
-    p{
-        text-indent: 30 pt
-    }
-   
-</style>
+
 
 <!--- End of Paragraph Indent -->
 
@@ -118,13 +113,17 @@ Multi Pass compilers work similarly to Two-Pass compilers as they both contain a
 ![MultiPass_Complier.png](Images%2FMultiPass_Complier.png)
 
 ## <div align = "center">The Difference between a Complied and Interrupted Language [Ken]
-<!--- Insert Your part here -->
-### <div align = "center"> Use Cases </div>
-<!--- Insert Your part here -->
-### <div align = "center"> Advantages </div>
-<!--- Insert Your part here -->
-### <div align = "center"> Disadvantages </div>
-<!--- Insert Your part here -->
+<p>
+    Programming languages are typically divided into two categories: compiled and interpreted. This classification hinges on how the languages convert code into machine code, the form executable by a computer's hardware. Compiled languages, such as C and C++, necessitate the use of a compiler to translate the entire program into machine code prior to execution. In contrast, interpreted languages, like Python and JavaScript, are executed progressively by an interpreter, which reads and executes the code line by line.
+
+Compiled languages are well-suited for applications where performance and speed are paramount. For instance, system software, game development, and applications that require intensive numerical computations typically employ compiled languages. The chief advantage of these languages is their fast execution speed; since the code is pre-compiled into machine code, it can be executed directly and quickly. However, disadvantages include less flexibility for error correction during runtime and a longer initial development time due to the compilation process.
+
+Interpreted languages, on the other hand, are preferred for projects where quick development and portability outweigh execution speed. These languages are commonly used for web development, scripting, and automation tasks. The benefits of interpreted languages include easier debugging and testing, as errors can be rectified immediately without recompilation. Additionally, these languages tend to be more user-friendly and flexible. The primary drawback, however, is slower performance compared to compiled languages, due to runtime interpretation which can delay execution.
+
+Practically speaking, the decision between using a compiled or interpreted language often depends on the specific needs of the project. Compiled languages offer efficiency and are ideal for performance-sensitive applications with stable requirements, while interpreted languages provide greater flexibility and quicker development times for projects where these aspects are prioritized.
+
+While compiled languages deliver superior performance and efficiency, they lack the debugging ease and flexibility that interpreted languages afford. Conversely, while interpreted languages support rapid development and are user-friendly, they experience slower execution times. Understanding these trade-offs is essential for developers when choosing the language that best suits the needs of their specific project.
+
 
 ## <div align = "center" > Sources </div>
 
