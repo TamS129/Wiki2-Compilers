@@ -22,8 +22,9 @@ of the code, catching errors before the software is executed.
 </p>
 
 <p align = "center">
-<img src="Images%2Fwiki2.png" width="500" height="500" />
+<img src="Images%2Fwiki2.png" width="700" height="700" />
 </p>
+
 ## <div align = "center">The History of Compilers [Kelvin] </div>
 <p>
 The development of compilers is intertwined with the history of computer science. During the early days of computing in the 1940s, programmers 
