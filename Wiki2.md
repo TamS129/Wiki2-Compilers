@@ -21,7 +21,7 @@ from errors. Compilers are essential for executing complex software applications
 of the code, catching errors before the software is executed.
 </p>
 
-<img src="Images%2Fwiki2.png" width="500" height="800" />
+<img src="Images%2Fwiki2.png" width="500" height="500" />
 
 ## <div align = "center">The History of Compilers [Kelvin] </div>
 <p>
