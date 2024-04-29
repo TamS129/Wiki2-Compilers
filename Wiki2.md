@@ -13,7 +13,7 @@ If you erase this our paragraph indents go away. - Tamara -->
 
 ## <div align = "center"> Introduction: Compilers and Their Purpose [Kelvin]</div>
 <p>
-A compiler is a fundamental software tool that translates high-level programming languages which are readable & comprehensible to humans, 
+    A compiler is a fundamental software tool that translates high-level programming languages which are readable & comprehensible to humans, 
 into low-level binary machine code, which computers can understand. This transformation process, known as compilation, is crucial in software 
 development, bridging the gap between human ideas and computer execution. The purpose of a compiler is multifold: it translates programs into 
 machine-readable instructions, helps make code independent of the platform, generates executable files of code and ensures that the code is free 
