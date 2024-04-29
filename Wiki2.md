@@ -11,14 +11,7 @@ If you erase this our paragraph indents go away. - Tamara -->
 
 # <div align ="center"> Wiki 2: Compilers</br> <span style="font-size:0.5em;"> Written By: Jackson Kettel, Ken Cage, Kelvin Rajbhandari, Tamara Slone </span> </div>
 
-## <div align = "center">Introduction </div>
-<p>
-
-
-
-</p>
-
-## <div align = "center">Compilers and their purpose [Kelvin]</div>
+## <div align = "center"> Introduction: Compilers and Their Purpose [Kelvin]</div>
 <p>
 A compiler is a fundamental software tool that translates high-level programming languages which are readable & comprehensible to humans, 
 into low-level binary machine code, which computers can understand. This transformation process, known as compilation, is crucial in software 
@@ -28,7 +21,7 @@ from errors. Compilers are essential for executing complex software applications
 of the code, catching errors before the software is executed.
 </p>
 
-![wiki2.png](Images%2Fwiki2.png)
+![wiki2.png](Images%2Fwiki2.png = 800x500)
 
 ## <div align = "center">The History of Compilers [Kelvin] </div>
 <p>
