@@ -21,8 +21,9 @@ from errors. Compilers are essential for executing complex software applications
 of the code, catching errors before the software is executed.
 </p>
 
-<img src="Images%2Fwiki2.png" width="500" height="500" align = "center" />
-
+<p align = "center">
+<img src="Images%2Fwiki2.png" width="500" height="500" />
+</p>
 ## <div align = "center">The History of Compilers [Kelvin] </div>
 <p>
 The development of compilers is intertwined with the history of computer science. During the early days of computing in the 1940s, programmers 
