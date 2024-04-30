@@ -152,6 +152,8 @@ Multi Pass Compilers can have a slow runtime comparative to Single Pass and Two 
 
 ![Flowchart.png](Images%2FFlowchart.png)
 
+<img src="Images%2FFlowchart.png" height="800" />
+
 </p>
 
 
