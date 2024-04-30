@@ -101,9 +101,12 @@ typically find in Multi Pass compilers. Leaving Two Pass compilers to be best us
 <p>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The last compiler type that is typically used  for programming languages is called a <b>Multi Pass Compiler</b>. Multi Pass compilers work by having multiple passes through a program before the program executes. Meaning that 
 the source code will be read through multiple times before they are executed. Meaning that Multi Pass Compilers will read through the source code multiple times before a programs runs. There are two different methods that a 
-Multi Pass compiler can implement to parse through their programs called <b> Multiple Stages </b> and <b> </b>
+Multi Pass compiler can implement to parse through their programs called <b> Multiple Stages </b>. The Multiple stage method can allow for the compiler to have different phases of code processing. For example Multi Pass compilers allow for
+lexical and syntax analyzer just like the Two Pass compiler. However, Multi Pass typically tends to have an optimizer, type-checking, and a semantic analyzer.   
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi Pass compilers work similarly to Two-Pass compilers as they both contain a lexical analyzer and a syntax analyzer. Considering that Two Pass compilers are a type of Multi Pass compilers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi Pass compilers work similarly to Two-Pass compilers as they both contain a lexical analyzer and a syntax analyzer. Considering that Two Pass compilers are a type of Multi Pass compilers. 
+Unlike Single Pass compilers and Two Pass compilers, Multi Pass compilers can allow for more complex optimization than Single Pass or Two Pass compilers. However, due to its ability to have several passes 
+Multi Pass Compilers can have a slow runtime comparative to Single Pass and Two Pass compilers. Leading to Multi Pass compilers better suited for languages such as C++ or Java.  
 
 </p>
 
