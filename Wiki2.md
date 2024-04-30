@@ -1,24 +1,11 @@
-<!--- I added some html to our doc to allow for more freedom for text, images, etc. -->
-<!--- To separate your paragraphs use the <p> brackets.Ex:
-<p> insert your paragraph text here </p> -->
-
-<!--- This method below is to indent our paragraphs to make it look neater. 
-If you erase this our paragraph indents go away. - Tamara -->
-
-
-
-<!--- End of Paragraph Indent -->
-
 # <div align ="center"> Wiki 2: Compilers</br> <span style="font-size:0.5em;"> Written By: Jackson Kettel, Ken Cage, Kelvin Rajbhandari, Tamara Slone </span> </div>
 
 ## <div align = "center"> Introduction: Compilers and Their Purpose [Kelvin]</div>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A compiler is a fundamental software tool that translates high-level programming languages which are readable & comprehensible to humans, 
-into low-level binary machine code, which computers can understand. This transformation process, known as compilation, is crucial in software 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When a software engineer is developing code, the programming language needs to be readable and easy to comprehend for the human mind. Thus came about <b>High-Level programming languages </b> which are human friendly and easy to understand, but not by machines. On the other hand, <b>Low-level languages</b> are machine-friendly. They are impossible to understand and learn. This arises a need for a <b>compiler</b> that converts high-level languages into low-level languages that a machine understands. 
+This transformation process, known as compilation, is crucial in software 
 development, bridging the gap between human ideas and computer execution. The purpose of a compiler is multifold: it translates programs into 
-machine-readable instructions, helps make code independent of the platform, generates executable files of code and ensures that the code is free 
-from errors. Compilers are essential for executing complex software applications efficiently. They are also used to check the syntax and semantics 
-of the code, catching errors before the software is executed.
+machine-readable instructions, helps make code independent of the platform, generates executable files of code and ensures that the code is free from errors. Compilers are essential for executing complex software applications efficiently. They are also used to check the syntax and semantics of the code, catching errors before the software is executed.
 </p>
 
 <p align = "center">
@@ -30,33 +17,26 @@ of the code, catching errors before the software is executed.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of compilers is intertwined with the history of computer science. During the early days of computing in the 1940s, programmers 
 wrote instructions in binary code directly suited to machine hardware. The tedious nature of this process led to the development of assembly 
 languages, which allowed programmers to use symbolic representations of machine instructions. The real shift came with the advent of high-level 
-languages, which abstracted the programming process further from the machine language. The first significant high-level language was FORTRAN, 
-developed in the 1950s by John Backus’ team at IBM. This development was closely followed by the creation of the first compiler for FORTRAN, 
-which marked a pivotal moment in computing, allowing for more rapid and flexible program development. Throughout the 1960s and 1970s, the evolution 
-of compilers was characterized by improvements in optimization techniques and error detection mechanisms, which greatly enhanced programming 
-efficiency and machine performance. Languages such as COBOL and LISP were developed with their compilers, expanding the usability of computers 
-in business and research.
+languages, which abstracted the programming process further from the machine language. The first significant high-level language was FORTRAN, developed in the 1950s by John Backus’ team at IBM. This development was closely followed by the creation of the first compiler for FORTRAN, 
+which marked a pivotal moment in computing, allowing for more rapid and flexible program development. Throughout the 1960s and 1970s, the evolution of compilers was characterized by improvements in optimization techniques and error detection mechanisms. These advancements greatly enhanced programming efficiency and machine performance. Languages such as COBOL and LISP were later developed with their own compilers, expanding the usability of computers in business and research.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As computing power increased and the needs of software grew more complex, the functionality of compilers expanded. Modern compilers 
-are now capable of performing complex optimizations on the code to improve execution speed and reduce resource consumption. They also 
-play a critical role in the development environment, offering developers immediate feedback on errors and warnings.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As computing power increased and the needs of software grew more complex, the functionality of compilers expanded. Modern compilers are now capable of performing complex optimizations on the code to improve execution speed and reduce resource consumption. They also play a critical role in the development environment, offering developers immediate feedback on errors and warnings.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In summary, compilers are indispensable to the development of software. They translate high-level language into machine code, 
-enhance it for performance and ensure it is error-free. From their origins in the earliest days of programming to their current 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In summary, compilers are indispensable to the development of software. They translate high-level language into machine code, enhancing it for performance and ensuring its error-free. From their origins in the earliest days of programming to their current 
 complex forms, compilers have grown to be indispensable tools in the arsenal of modern computer science. As technology evolves, 
 the role of compilers continues to adapt, ensuring they remain at the heart of software development processes.
 </p>
 
 ## <div align = "center"> 3 Phases of Compilers [Jackson] </div>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are 3 main phases of compilers: The front end phase, the intermediate code optimization phase, and the back end phase. The <b>front end phase</b> involves scanning the source code provided to the compiler, and producing an intermediate representation of the code. This is produced through generating tokens based on the source code’s language, and evaluating if it is both syntactically and semantically correct. The <b>intermediate code optimization phase</b> is when the code produced by the front end is further optimized by generating machine independent code. By doing so, it makes it so that the program will be more optimal when translated to machine code, and can be further translated to machine code on different types of devices. Finally, the <b>back end phase</b> is when the optimized intermediate code is finally translated into machine code for the device it will be used on. This will include tasks directly related to hardware, such as allocating memory in registers or selecting instructions.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are 3 main phases of compilers: The front end phase, the intermediate code optimization phase, and the back end phase. The <b>front end phase</b> involves scanning the source code provided to the compiler and producing an intermediate representation of the code. This is produced through generating tokens based on the source code’s language, and evaluating if it is both syntactically and semantically correct. The <b>intermediate code optimization phase</b> is when the code produced by the front end is further optimized by generating machine independent code. It allows the code to be more easily translated into machine code on different types of devices. Finally, the <b>back end phase</b> is when the optimized intermediate code is fully translated into machine code for the device it will be used on. This will include tasks directly related to hardware, such as allocating memory in registers or selecting instructions.
 </p>
 
 ## <div align = "center"> Operations of the Compiler [Jackson] </div>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compilers have many operations that turn source code into machine code for the given computer. The first three operations of a compiler are part of the front end phase: lexical analysis, syntax analysis, and semantic analysis. Lexical analyzers reads the source code provided, and groups the read characters into lexemes. Lexemes are sequence alphanumeric characters that make up tokens, which are the basic building blocks of a programming language. When it identifies these tokens, it will produce an output containing all of the tokens as well as their locations in the program. The syntax analyzer takes the tokens from the lexical analyzer and ensures that the program follows the grammar rules defined by the programming language. If a syntax error is detected, the program will not compile and produce an error. If the syntax analyzer determines that the program is syntactically correct, it will produce an abstract syntax tree (AST) that represents the structure of the source code so it can be understood in future steps. Finally, the semantics analyzer checks if the abstract syntax tree is semantically correct. This involves type checking, looking for undeclared variables, incorrect function calls, and many other rules.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compilers have many operations that turn source code into machine code for the given computer. The first three operations of a compiler are part of the front end phase: lexical analysis, syntax analysis, and semantic analysis. <b>Lexical analyzers</b> reads the source code provided, and groups the read characters into lexemes. Lexemes are sequence alphanumeric characters that make up tokens, which are the basic building blocks of a programming language. When it identifies these tokens, it will produce an output containing all of the tokens as well as their addresses in the program. The <b>syntax analyzer</b> takes the tokens from the lexical analyzer and ensures that the program follows the grammar rules defined by the programming language. If a syntax error is detected, the program won't compile and will produce an error. If the syntax analyzer determines that the program is syntactically correct, it will produce an <b>Abstract Syntax Tree (AST)</b> that represents the structure of the source code so it can be understood by the semantic analyzer. Finally, the <b>semantics analyzer</b> checks if the AST is semantically correct. This involves type checking, looking for undeclared variables, incorrect function calls, and many other rules.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the first three operations are completed, the compiler will generate an intermediate representation of the source code using the intermediate code generator. This intermediate code that is generated is platform independent, meaning that it can be used by any machine. The next two steps will make it be able to run on the specific platform, as the machine code is specific to the computer being used. The code optimizer will then make the code take less memory and execute at fast speeds while maintaining the meaning of the code. During this step, both machine-dependent and machine-independent optimizations are made, which makes the output only usable by the system compiling the code.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the first three operations are completed, the compiler will generate an intermediate representation of the source code using the intermediate code generator. This intermediate code that is generated is platform independent, meaning that it can be used by any machine. The next two steps will make it runnable on the specific platform, as the machine code is specific to the computer being used. The code optimizer will then optimize the code, requiring less memory, and executing at fast speeds while maintaining the meaning of the code. During this step, both machine-dependent and machine-independent optimizations are made, making the output only usable by the system compiling the code.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The final operation of the compiler is to produce functional machine code that can be read by the intended machine. This is dependent on the type of assembler used by the machine, the hardware being used, and other factors relating to the system’s architecture. This code will be able to allocate memory in the cpu’s registers, perform instruction selection, and other hardware operations. The final result will be machine code that will be then used by the linker and loader to execute the program.
 </p>
@@ -65,15 +45,9 @@ the role of compilers continues to adapt, ensuring they remain at the heart of s
 
 ### <div align = "center"> Single Pass Compilers </div>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When observing the different types of compilers, one of the more "simple" design choices for a compiler 
-would be the Single Pass Compiler. A <b> Single Pass Compiler </b> is a compiler that processes the source
-code of a program from start to finish in one pass. Meaning unlike our other compiler types that scan and read the 
-source code in multiple phases. Single pass compilers read and translate the source as the programming is running. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When observing the different types of compilers, one of the more "simple" design choices for a compiler would be the Single Pass Compiler. A <b> Single Pass Compiler </b> is a compiler that processes the source code of a program from start to finish in one pass. Single Pass Compilers are unlike other compiler types that scan and read the source code in multiple phases. These compilers read and translate the source as the programming is running. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite having a faster run time and better resource management, Single Pass Compilers are very limited in terms of creating complex optimizations 
-for the code it reads. Which can be a challenge to implement for complex languages because of its inability to revisit and reread the code. Which puts the compiler
-at a major disadvantage comparative to Two Pass and Multi Pass compilers. However, while the Single Pass compiler may not be able to handle complex languages. What the Single Pass compilers do have an advantage in
-is better resource management and speed than both Two Pass and Multi Pass compilers. Which makes the Single Pass compiler a better candidate for embedded systems, bootloaders, and scripting languages such as JavaScript. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite having a faster run time and better resource management, Single Pass Compilers are very limited in terms of creating complex optimizations for the code it reads. This can be challenging to implement for complex languages because of its inability to revisit and reread the code. That is a major disadvantage compared to Two Pass and Multi Pass Compilers. While the Single Pass compiler may not be able to handle complex languages, they have better resource management and speed than both Two Pass and Multi Pass Compilers. This allows the Single Pass compiler to be a better candidate for embedded systems, bootloaders, and scripting languages such as JavaScript. 
 </p>
 
  <p align = "center">
@@ -82,31 +56,22 @@ is better resource management and speed than both Two Pass and Multi Pass compil
 
 ### <div align = "center"> Two Pass Compilers </div>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another commonly used compiler is a Two-Pass Compiler. <b> Two Pass Compilers </b> are a type of Multi Pass compilers that read the source code
-twice before running the program. Meaning unlike the previous Single Pass compiler, Two Pass compilers read through the source code once and then complete another
-pass through of the source code. Two Pass Compilers are typically made up with a code scanner called a <b>lexical analyzer</b>. This lexical analyzer scans through a high level program and converts the scan
-into a mix of identifying tokens. Once the lexical analyzer is complete the tokens are then sent to the second pass which is called a <b> syntax analyzer</b>. This syntax analyzer will take the tokens from the lexical analyzer
-and parses the tokens. The syntax analyzer will parse the tokens into a tree and check to see if the program is written correctly. This two pass system can sometimes be referred to as 
-Front end and Back end processes. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another commonly used compiler is a Two-Pass Compiler. <b> Two Pass Compilers </b> are a type of Multi Pass Compiler that reads the source code
+twice before running the program. Two Pass Compilers typically use a lexical analyzer for their first read through of the source code. Once the lexical analyzer is complete, the translated code is then sent to the second pass, which contains a syntax analyzer. The syntax analyzer will parse the tokens into a tree and check to see if the program is written correctly. When that pass is complete, the code will then execute. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two pass compilers and Multi Pass Compilers are actually very similar in the way the programs functions. The only difference is while Multi Pass compilers can three or more passes throughout its duration. Two Pass compilers only allow
-for two passes through its program. Which allows the Two Pass compiler to have a faster runtime than a Multi Pass compiler. This also allows for the Two Pass compiler to have fewer limitations in optimization comparative to a
-Single Pass Compiler. However, there are still some limitations that a Two Pass compiler cannot do. For example,  Two Pass compilers cannot handle complex optimizations of code like a Multi-Pass compiler. These compilers also cannot do effective type-checking which is something you can
-typically find in Multi Pass compilers. Leaving Two Pass compilers to be best used with concepts like mutual recursion, dead code elimination, and for some programming languages like C++.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two pass compilers and Multi Pass Compilers are actually very similar in the way the programs functions. The only difference is while Multi Pass compilers can have three or more passes throughout its duration, Two Pass compilers only allow for two passes. This allows the Two Pass compiler to have a faster runtime than a Multi Pass compiler, while also having less limitations in optimization than a Single Pass Compiler. However, there are still some limitations that a Two Pass compiler cannot do. For example, Two Pass compilers cannot handle complex optimizations of code like a Multi-Pass compiler. They also cannot do effective type-checking which is something you can
+typically find in Multi Pass compilers. That leaves Two Pass compilers to be best used with concepts like mutual recursion, dead code elimination, and for some programming languages like C++.
 </p>
 
 ![TwoPassCompiler.png](Images%2FTwoPassCompiler.png)
 
 ### <div align = "center"> Multi Pass Compilers </div>
 <p>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The last compiler type that is typically used  for programming languages is called a <b>Multi Pass Compiler</b>. Multi Pass compilers work by having multiple passes through a program before the program executes. Meaning that 
-the source code will be read through multiple times before they are executed. Meaning that Multi Pass Compilers will read through the source code multiple times before a programs runs. There are two different methods that a 
-Multi Pass compiler can implement to parse through their programs called <b> Multiple Stages </b>. The Multiple stage method can allow for the compiler to have different phases of code processing. For example Multi Pass compilers allow for
-lexical and syntax analyzer just like the Two Pass compiler. However, Multi Pass typically tends to have an optimizer, type-checking, and a semantic analyzer.   
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The last compiler type is called a <b>Multi Pass Compiler</b>. Multi Pass compilers work by having multiple passes through a program before the program executes. Meaning that 
+the source code will be read through multiple times before it is executed. One of the more common methods that Multi Pass Compilers use to implement multiple passes are multiple stages. Multiple stages allow for the compiler to have different phases of code processing. The most common layout for multiple stages is to structure the complier with a lexical and syntax analyzer, an optimizer, type-checking, and a semantic analyzer.   
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi Pass compilers work similarly to Two-Pass compilers as they both contain a lexical analyzer and a syntax analyzer. Considering that Two Pass compilers are a type of Multi Pass compilers. 
-Unlike Single Pass compilers and Two Pass compilers, Multi Pass compilers can allow for more complex optimization than Single Pass or Two Pass compilers. However, due to its ability to have several passes 
-Multi Pass Compilers can have a slow runtime comparative to Single Pass and Two Pass compilers. Leading to Multi Pass compilers better suited for languages such as C++ or Java.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi Pass compilers work similarly to Two-Pass compilers as they both contain a lexical analyzer and a syntax analyzer. Unlike Single Pass compilers and Two Pass compilers, Multi Pass compilers can allow for more complex optimization. However, because of its ability to have several passes 
+these compilers tend to have slower runtimes than Single Pass and Two Pass compilers. Leading to Multi Pass compilers better suited for complex programs and programming languages like C++.  
 
 </p>
 
