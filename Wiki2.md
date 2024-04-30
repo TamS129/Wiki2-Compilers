@@ -126,10 +126,32 @@ Multi Pass Compilers can have a slow runtime comparative to Single Pass and Two 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While compiled languages deliver superior performance and efficiency, they lack the debugging ease and flexibility that interpreted languages afford. Conversely, while interpreted languages support rapid development and are user-friendly, they experience slower execution times. Understanding these trade-offs is essential for developers when choosing the language that best suits the needs of their specific project.
 
-
 ## <div align = "center" > Sources </div>
+[1]
+“Compiler,” Wikipedia, May 03, 2020. https://en.wikipedia.org/wiki/Compiler
 
-## <div align = "center"> Phases and Operations of a Compiler </div>
+[2]
+“What is Compiler? Definition, Structure, Types, Applications,” Toppr-guides, Jan. 12, 2021. https://www.toppr.com/guides/computer-science/computer-fundamentals/system-software/compiler/
 
+[3]
+ “Difference between Compiled and Interpreted Language,” GeeksforGeeks, Mar. 26, 2020. https://www.geeksforgeeks.org/difference-between-compiled-and-interpreted-language/
+
+[4]
+“Stack Overflow Developer Survey 2020,” Stack Overflow. https://survey.stackoverflow.co/2020#overview (accessed Apr. 30, 2024).
+
+[5]
+“Single Pass vs Two-Pass (Multi-Pass) Compilers,” GeeksforGeeks, Mar. 13, 2019. https://www.geeksforgeeks.org/single-pass-two-pass-and-multi-pass-compilers/# (accessed Apr. 30, 2024).
+
+[6]
+“What is a Multi-Pass Compiler?,” www.computerhope.com. https://www.computerhope.com/jargon/m/multpass.htm (accessed Apr. 30, 2024).
+
+## <div align = "center"> Phases and Operations of a Compiler [Tamara] </div>
+
+
+<p align = "center">
+
+![Flowchart.png](Images%2FFlowchart.png)
+
+</p>
 
 
